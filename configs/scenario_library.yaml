@@ -1,0 +1,15 @@
+hormuz_full_closure:
+  energy_dependency_multiplier: 1.35
+  inflation_multiplier: 1.20
+  liquidity_score_shift: -0.15
+  policy_stability_shift: -0.10
+
+fertilizer_export_ban:
+  fertilizer_stress_shift: 0.25
+  inflation_multiplier: 1.08
+
+diplomatic_breakthrough:
+  energy_dependency_multiplier: 0.92
+  liquidity_score_shift: 0.10
+  policy_stability_shift: 0.12
+  inflation_multiplier: 0.96
