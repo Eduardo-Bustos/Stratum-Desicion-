@@ -1,0 +1,53 @@
+version: "v2.3"
+
+thresholds:
+  sg_absorption_max: 0.0
+  sg_selection_max: 0.5
+
+weights:
+  theta:
+    liquidity_score: 0.40
+    fx_reserves_score: 0.30
+    policy_stability_score: 0.30
+
+  cp:
+    energy_dependency: 0.45
+    inflation: 0.20
+    debt_ratio: 0.15
+    current_account_gap: 0.20
+
+portfolio:
+  absorption:
+    equities_dm: 0.30
+    equities_em: 0.12
+    energy: 0.10
+    fertilizers: 0.05
+    grains: 0.04
+    gold: 0.05
+    usd: 0.08
+    credit_ig: 0.14
+    credit_hy: 0.07
+    cash: 0.05
+
+  selection:
+    equities_dm: 0.22
+    equities_em: 0.06
+    energy: 0.16
+    fertilizers: 0.10
+    grains: 0.08
+    gold: 0.10
+    usd: 0.10
+    credit_ig: 0.10
+    credit_hy: 0.03
+    cash: 0.05
+
+  propagation:
+    equities_dm: 0.12
+    equities_em: 0.02
+    energy: 0.18
+    fertilizers: 0.12
+    grains: 0.10
+    gold: 0.14
+    usd: 0.12
+    credit_ig: 0.08
+    credit_hy: 0
