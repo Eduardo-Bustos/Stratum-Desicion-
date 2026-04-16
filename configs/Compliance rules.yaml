@@ -1,0 +1,6 @@
+max_asset_weight: 0.25
+min_asset_weight: 0.00
+max_turnover_weekly: 0.20
+max_hy_weight: 0.10
+max_em_equity_weight: 0.12
+max_total_real_assets_weight: 0.50
