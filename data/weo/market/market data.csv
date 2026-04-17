@@ -1,7 +1,0 @@
-country,energy_dependency,liquidity_score,credit_spread,energy_price,fertilizer_stress
-USA,0.35,0.86,1.4,82,0.20
-Germany,0.62,0.73,1.8,88,0.28
-India,0.79,0.66,2.2,91,0.34
-Brazil,0.44,0.60,2.6,86,0.31
-Japan,0.84,0.78,1.5,90,0.26
-Nigeria,0.88,0.32,5.4,93,0.40
